@@ -1,9 +1,9 @@
 {
-  "name": "react-mentions",
+  "name": "react-mentions-preact",
   "version": "4.4.7",
   "description": "React mentions input",
-  "main": "dist/react-mentions.cjs.js",
-  "module": "dist/react-mentions.esm.js",
+  "main": "dist/react-mentions-preact.cjs.js",
+  "module": "dist/react-mentions-preact.esm.js",
   "files": [
     "dist"
   ],
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/signavio/react-mentions.git"
+    "url": "https://github.com/venits/react-mentions-preact.git"
   },
   "keywords": [
     "react",
@@ -33,12 +33,12 @@
     "safari >= 10",
     "ie >= 11"
   ],
-  "author": "SAP-Signavio",
+  "author": "Venits",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/signavio/react-mentions/issues"
+    "url": "https://github.com/venits/react-mentions-preact/issues"
   },
-  "homepage": "https://github.com/signavio/react-mentions",
+  "homepage": "https://github.com/venits/react-mentions-preact",
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
