@@ -6,22 +6,22 @@ Used in production at [Signavio](https://signavio.com), [State](https://state.co
 
 ## Getting started
 
-Install the _react-mentions_ package via npm:
+Install the _react-mentions-preact_ package via npm:
 
 ```
-npm install react-mentions --save
+npm install react-mentions-preact --save
 ```
 
 Or yarn:
 
 ```
-yarn add react-mentions
+yarn add react-mentions-preact
 ```
 
 The package exports two React components for rendering the mentions textarea:
 
 ```javascript
-import { MentionsInput, Mention } from 'react-mentions'
+import { MentionsInput, Mention } from 'react-mentions-preact'
 ```
 
 `MentionsInput` is the main component rendering the textarea control. It takes one or multiple `Mention` components as its children. Each `Mention` component represents a data source for a specific class of mentionable objects, such as users, template variables, issues, etc.
